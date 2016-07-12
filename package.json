@@ -1,0 +1,21 @@
+{
+  "name": "twitterBot",
+  "version": "0.0.1",
+  "description": " A twitter bot that processes images",
+  "main": "imageBot.js",
+  "scripts": {
+    "test": "imageBot.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "twitterbot, twitter"
+  ],
+  "author": "Vivek Kumar",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "node-uuid": "^1.4.7",
+    "python-shell": "^0.4.0",
+    "request": "^2.72.0",
+    "twit": "^2.2.4"
+  }
+}
